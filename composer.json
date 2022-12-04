@@ -1,0 +1,17 @@
+{
+    "name": "rceman/fort",
+    "description": "APS integration with payment gateway",
+    "version": "2.4.0",
+    "type": "magento2-module",
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+          "registration.php"
+        ],
+        "psr-4": {
+            "Amazonpaymentservices\\Fort\\": ""
+        }
+    }
+}
